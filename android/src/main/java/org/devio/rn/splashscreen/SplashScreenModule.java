@@ -8,14 +8,15 @@ import com.facebook.react.bridge.ReactMethod;
  * SplashScreen
  * 启动屏
  * from：http://www.devio.org
- * Author:CrazyCodeBoy
- * GitHub:https://github.com/crazycodeboy
- * Email:crazycodeboy@gmail.com
  */
 public class SplashScreenModule extends ReactContextBaseJavaModule{
     public SplashScreenModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }
+
+    // 修复 react-native-splash-screen 报错
+    @Override    
+    public boolean canOverrideExistingModule() { return true; }
 
     @Override
     public String getName() {

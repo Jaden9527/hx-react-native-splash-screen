@@ -12,23 +12,23 @@
 
 RN创建的项目默认是不带LaunchScreen.storyboard的，所以我们需要手动创建，用xcode打开项目下的iOS项目然后在左侧文件导航面板右键选择新建文件：
 
-![new-LaunchScreen-storyboard.jpg](https://raw.githubusercontent.com/crazycodeboy/react-native-splash-screen/master/screenshot/new-LaunchScreen-storyboard.jpg)
+![new-LaunchScreen-storyboard.jpg](https://raw.githubusercontent.com/Jaden9527/hx-react-native-splash-screen/master/screenshot/new-LaunchScreen-storyboard.jpg)
 
 
 ### 创建LaunchScreen Image Set
 
 打开`Images.xcassets`然后添加名为`LaunchScreen`的Image Set：
 
-![new-LaunchScreen-image-set.jpg](https://raw.githubusercontent.com/crazycodeboy/react-native-splash-screen/master/screenshot/new-LaunchScreen-image-set.jpg)
+![new-LaunchScreen-image-set.jpg](https://raw.githubusercontent.com/Jaden9527/hx-react-native-splash-screen/master/screenshot/new-LaunchScreen-image-set.jpg)
 
 ### 在LaunchScreen.storyboard中添加ImageView并绑定LaunchScreen Image
 
 打开`LaunchScreen.storyboard`，然后添加一个ImageView，调整好大小与约束，在为其绑定LaunchScreen Image Set：
 
-![apply-image-set.jpg](https://raw.githubusercontent.com/crazycodeboy/react-native-splash-screen/master/screenshot/apply-image-set.jpg)
+![apply-image-set.jpg](https://raw.githubusercontent.com/Jaden9527/hx-react-native-splash-screen/master/screenshot/apply-image-set.jpg)
 
 ### 应用LaunchScreen.storyboard
 
 然后不要忘记在TARGETS中设置`Launch Screen File`：
 
-![apply-Launchscreen.jpg](https://raw.githubusercontent.com/crazycodeboy/react-native-splash-screen/master/screenshot/apply-Launchscreen.jpg)
+![apply-Launchscreen.jpg](https://raw.githubusercontent.com/Jaden9527/hx-react-native-splash-screen/master/screenshot/apply-Launchscreen.jpg)

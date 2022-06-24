@@ -2,9 +2,6 @@
  * SplashScreen
  * 启动屏
  * from：http://www.devio.org
- * Author:CrazyCodeBoy
- * GitHub:https://github.com/crazycodeboy
- * Email:crazycodeboy@gmail.com
  * @flow
  */
 'use strict';
@@ -38,15 +35,6 @@ export default class example extends Component {
                 <View >
                     <Text style={styles.item}>
                         SplashScreen 启动屏
-                    </Text>
-                    <Text style={styles.item}>
-                        @：http://www.devio.org/
-                    </Text>
-                    <Text style={styles.item}>
-                        GitHub:https://github.com/crazycodeboy
-                    </Text>
-                    <Text style={styles.item}>
-                        Email:crazycodeboy@gmail.com
                     </Text>
                 </View>
             </TouchableOpacity>
