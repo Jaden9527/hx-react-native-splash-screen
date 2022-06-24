@@ -1,5 +1,5 @@
 # react-native-splash-screen
-
+修复 react-native-splash-screen 3.3.0版本安卓报错
 
 [![Download](https://img.shields.io/badge/Download-v3.3.0-ff69b4.svg) ](https://www.npmjs.com/package/react-native-splash-screen)
 [ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/Jaden9527/hx-react-native-splash-screen/pulls)
